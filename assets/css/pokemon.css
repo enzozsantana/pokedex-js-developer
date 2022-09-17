@@ -1,0 +1,258 @@
+#pokemon {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 98vw;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #48D0B0;
+    color: #FFF;
+    border-radius: 2rem 2rem 0 0;
+    padding: 2rem .5rem 0 .5rem;
+    height: auto;
+}
+
+
+header img {
+    margin-top: -15%;
+    align-self: center;
+    z-index: 1;
+    max-height: 300px;
+}
+
+.normal {
+    background-color: #b2b480;
+}
+
+.grass {
+    background-color: #48D0B0;
+}
+
+.fire {
+    background-color: #FB6C6C;
+}
+
+.water {
+    background-color: #74BBFC;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #b245b2;
+}
+
+.fighting {
+    background-color: #DC372F;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #acbb26;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+#arrow {
+    height: 30px;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.identification {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    font-weight: 700;
+}
+
+.identification .name {
+    text-transform: capitalize;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.number {
+    font-size: 1.25rem;
+}
+
+.types {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.types .type {
+    padding: .125rem 1.5rem;
+    border-radius: .9rem;
+    filter: brightness(2);
+    text-align: center;
+}
+
+.info {
+    background-color: #FFF;
+    height: auto;
+    border-radius: 2rem;
+    position: relative;
+    top: -25px;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.info .abilities {
+    text-transform: capitalize;
+}
+
+.detailPokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 1rem;
+    padding-top: 4rem;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+.detailPokemon table {
+    width: 100%;
+}
+
+table .firstCol {
+    color: rgb(152, 151, 151);
+}
+
+.detailPokemon tr {
+    text-align: start;
+    height: 2rem; 
+}
+
+section {
+    color: rgb(61, 61, 61);
+}
+
+section h3 {
+    text-align: center;
+}
+
+.baseStats {
+    padding-left: .5rem;
+}
+.baseStats .statsName {
+    text-transform: capitalize;
+}
+
+.baseStats table {
+    width: 100%;
+}
+
+.baseStats tr {
+    text-align: start;
+    height: 2.25rem;
+}
+
+.baseStats td {
+    padding: .5rem;
+}
+
+progress {
+    height: .5rem;
+    margin-left: .5rem;
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-bar {
+    background-color: #eeeeee;
+}
+
+progress::-webkit-progress-value {
+    background-color: #48D0B0 !important;
+}
+
+
+/* For Firefox */
+progress {
+    background-color: #eee;
+}
+
+progress::-moz-progress-bar {
+    background-color: #48D0B0 !important;
+}
+
+/* For IE10 */
+progress {
+    background-color: #eee;
+}
+
+progress {
+    background-color: #48D0B0;
+}
+
+/* Responsividade */
+@media screen and (min-width: 576px) {
+    #pokemon {
+        max-width: 70vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #pokemon {
+        max-width: 60vw;
+    }
+
+    header img {
+        max-height: 360px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    #pokemon {
+        max-width: 40vw;
+    }
+}
